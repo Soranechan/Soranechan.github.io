@@ -1,0 +1,187 @@
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
+
+/* OVERALL ASPECT */
+
+body {
+  background-color: #inherit;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    margin-top: 70px;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: black;
+}
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* SECTIONS */
+.w {
+	padding-top: 50px;
+}
+
+.w h4 {
+	font-weight: 700;
+  font-size: 55px;
+  color:chartreuse;
+
+}
+
+.w i {
+	color: green;
+	font-size: 60px;
+}
+
+
+.wb {
+	padding-top: 35px;
+	margin-bottom: 0px;
+}
+
+.wb h4 {
+	font-weight: 700;
+}
+
+.desc {
+	padding-top: 35px;
+}
+
+.desc h4 {
+	font-weight: 700;
+}
+
+.desc i {
+	color: #ff7878;
+	font-size: 12px;
+	padding: 5px;
+}
+
+
+#dg {
+	background: #e0e0e0;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+#dg h4 {
+	font-weight: 700;
+  font-size: 50px
+}
+
+#headerwrap {
+	background: url(../img/FullSizeRender1.jpg) no-repeat center top;
+	margin-top: -10px;
+	padding-top:20px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 500px;
+	width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+
+/*===============================================
+　　　　　ここから下の部分を編集してみよう！
+===============================================*/
+
+/*１．メニューバー部分（HOMEやABOUTの部分）の色や文字サイズを変えることができます。*/
+
+.navbar {
+/*文字サイズを変えることができます*/
+	font-size: 60px;
+/*メニューバーの背景色を変えることができます*/
+  background: #B0E0E6;
+	padding-top: 15px;
+	padding-bottom: 25px;
+  font-weight: 900;
+}
+
+
+/*２．タイトルの文字サイズや色を変えることができます。*/
+
+#headerwrap h1 {
+  /*文字サイズを変えることができます*/
+  	font-size: 70px;
+  /*文字の色を変えることができます*/
+	color: #FF570D;
+	margin-top: 500px;
+	font-weight: 900;
+	letter-spacing: 8px;
+}
+
+
+/*３．フッターの背景色を変えることができます。*/
+
+#f {
+/*色コードもしくは色の指定をしてあげると背景色が変わります*/
+	background: #B0E0E6;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+
+/*４．フッターにあるtwitterやfacebookのアイコンの色やサイズが変更できます。*/
+
+#f i {
+/*アイコンの色を変えることができます*/
+	color: #bdbdbd;
+  /*アイコンのサイズを変えることができます*/
+	font-size: 60px;
+	padding: 20px;
+}
+
+
+/*５．アイコンにマウスオーバーした際の色を変えることができます*/
+
+#f i:hover {
+  /*マウスオーバーした時のアイコンの色を変えることができます*/
+	color: blue;
+}
+
+
+/*６．絵を動かすことができます*/
+.tilt {
+  -webkit-transition: all 5s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 5s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.tilt:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+/*===============================================
+　　　　　編集部分はここから上です
+===============================================*/
